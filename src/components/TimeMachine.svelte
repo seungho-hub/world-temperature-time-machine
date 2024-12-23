@@ -38,6 +38,17 @@
 			<h2>{countryInfo.name}</h2>
 		</div>
 	</div>
+	<div class="body">
+		<p class = "help"> 오른쪽 지도에서 국가를 선택할 수 있습니다! </p>
+		<div class="prompt">
+				<span>{countryInfo.name}의 </span>
+				<input type="number" name="year" id="" />
+				<span>년 후에 표면 온도 증가는 어느정도일까요?</span>
+		</div>
+		<div class="prediction">
+			
+		</div>
+	</div>
 </section>
 
 <style lang="scss">
@@ -55,6 +66,23 @@
 			gap: 20px;
 			img {
 				width: 40px;
+			}
+		}
+
+		.body {
+			padding: 30px;
+			display : flex;
+			flex-direction: column;
+			gap : 20px;
+			input {
+				background: none;
+				background-color: black;
+				padding: 10px 10px;
+				color: #ffffff;
+
+				&:focus{
+					outline : none;
+				}
 			}
 		}
 	}

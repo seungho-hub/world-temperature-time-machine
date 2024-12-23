@@ -1030,6 +1030,7 @@
 			align-items: center;
 			justify-content: center;
 			padding: 20px;
+			flex : 1;
 			// this is the map
 			#map {
 				//these are the countries
