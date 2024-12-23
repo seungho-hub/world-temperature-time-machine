@@ -1,9 +1,11 @@
-## install Node.js
+## install python dependencies
 
-## install dependencie  
+pip install scikit-learn
 
-  npm install
+## install dependencie
 
-## run 
+npm install
 
-  npm run dev
+## run
+
+npm run dev
